@@ -1,0 +1,29 @@
+Ejemplo N° 1: nuestro1.txt
+
+AUG{A}*[150]TTAGCTAGTACC{-}{TTC,TGC,TAA}{CCC,TAGTA}STOP
+
+Válido
+
+Ejemplo N° 2: nuestro2.txt
+
+AAAAGG{TTA,CAT,EE}
+
+No es válido debido a que no empieza con AUG ni termina con los codones de final. A su vez, presenta la letra 'E' que no es reconocida como nucleotido.
+
+Ejemplo N° 3: nuestro3.txt
+
+AUGGGATATAAAGTGAAAACGT{G}*[300]TTTATTTATTGGGGGGGAGGTCSTOP
+
+Válido
+
+Ejemplo N° 4: nuestro4.txt
+
+AUG{AT}*[100]AGGGTAAAAACCGTCCGGGTCGGGG{TCT,TAAT,TGGC}TAG
+
+NO es válido porque existe un TAA que corta el analisis, faltando aun elemento ha analizar.
+
+Ejemplo N°5: nuestro5.txt
+
+AUGGGCGAGCGAGCGTGGGAGCGCGGGTTTCCGAGGGGT{TA,TTT,TGGC}STOP
+
+Valído
