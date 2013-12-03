@@ -1,6 +1,6 @@
 /*                        */
 /*   2013 - TLA - 2C      */
-/*	   GRUPO          */
+/*         GRUPO          */
 /*MARIA FLORENCIA BESTEIRO*/
 /*MAXIMILIANO VALVERDE    */
 /*LEANDRO MATIAS RIVAS    */
